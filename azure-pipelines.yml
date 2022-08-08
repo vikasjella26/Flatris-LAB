@@ -21,7 +21,7 @@ variables:
   environmentName: 'testgame-bc'
  
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  pool: local
   
 stages:
 - stage: Archive
